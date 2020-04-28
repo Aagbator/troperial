@@ -1,6 +1,30 @@
+@font-face {
+  font-family: 'GT Walsheim';
+  src: local('GT Walsheim'), url(./fonts/gt-walsheim-web.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-weight: 400;
+    src: local('GT Walsheim'), url(./fonts/gt-walsheim-medium-web.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  font-weight: 300;
+  src: local('GT Walsheim'), url(./fonts/gt-walsheim-light-web.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-weight: 900;
+    src: local('GT Walsheim'), url(./fonts/gt-walsheim-bold-web.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: GT Walsheim, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

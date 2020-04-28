@@ -2,37 +2,113 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+nav{
+  display:flex;
+  margin: 0 auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav li{
+  list-style-type: none;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.alert{
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.alert-error{
+  border: 1px solid #fa8a8c;
+  background-color: #ffb4b6;
+}
+
+.wrapper{
+  display: flex;
+  height: 100vh;
+}
+
+.hero-bg{
+  position: relative;
+  flex: 0 0 28%;
+  background-color: #F3F8FF;
+  box-sizing: border-box;
+  padding: 140px 0px 0px 60px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.hero-bg:after{
+  content:'';
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: -150px;
+  background: url('./images/Illustration.svg');
+  background-repeat: no-repeat;
+}
+
+.hero-bg h2{
+  color: #737A91;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+}
+
+.login-wrapper{
+  flex: 1 0 72%;
+}
+
+.login-form {
+  width: 30%;
+  margin: 150px auto 0;
+  text-align: left;
+}
+
+.login-form .link{
+  color: #000000;
+  margin: 0px 0px 2px;
+}
+
+.login-form .link a{
+  color: #0383EF;
+  margin: 0px 0px 2px;
+  text-decoration: none;
+}
+
+.login-form h2{
+  color: #111111;
+}
+
+.login-form h1{
+  font-size: 1.4rem;
+  margin-bottom: 0px;
+}
+
+.login-form .title{
+  font-size: 24px;
+  color: #05D569;
+  font-family: GT Walsheim;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+
+.login-form p{
+  color: #737A91;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.footer{
+  color: #000000 !important;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #0383EF;
 }
