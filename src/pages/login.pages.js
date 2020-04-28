@@ -80,6 +80,7 @@ const Login =  (props) => {
               </div>
               <div className="login-wrapper">
                 <div className="login-form">
+                <img className="logo display-sm" src={require('../images/Logo.svg')}/>
                 <h1>Sign in to <span className="title">Troperial</span></h1>
                   <p>
                     Enter your email address & password <br></br>to sign In to Troperial
